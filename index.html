@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funko Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0adec87fdf.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="home grid">
+
+    <header>
+        <figure class="logo">
+            <a class="logopic" href="index.html"><img src="images/logo.png" alt="Logo of Funko Fan Page"></a>
+            <h1><a href="index.html">Funko<br>Fan Page</a></h1>
+        </figure>
+
+        <nav class="menu">
+            <ul>
+                <li><a class="home" id="home" href="index.html">Home</a></li>
+                <li><a class="history" href="history.html">History</a></li>
+                <li class="submenu"><button class="menubtn">GALLERY <i class="fa fa-caret-down"></i></button>
+                    <ul class="submenu-content">
+                        <li><a class="starwars" href="starwarspops.html">Star Wars Pops</a></li>
+                        <li><a class="other-pops" href="otherpops.html">Other Pops</a></li>
+                    </ul>
+                </li>
+                <li><a class="other-collec" href="other-collections.html">Other Collections</a></li>
+                <li><a class="contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <hr>
+
+    <figure class="funko-pop">
+        <button class="change-logo" onclick="document.getElementById('popLogo').src='images/pop-logo.png'">Pop!
+            Logo</button>
+        <br>
+        <img class="poplogo" id="popLogo" src="images/pop-logo.png" alt="Funko Pop! Logo" width="150">
+        <br>
+        <button class="change-logo" onclick="document.getElementById('popLogo').src='images/funko-logo.png'">Funko
+            Logo</button>
+    </figure>
+
+    <hr>
+
+    <div class="content">
+        <section class="content1">
+
+            <h2>What are Funko Pops?</h2>
+            <p>Funko Pops are vinyl figures made by the Funko company. They cover a great
+                range of franchises from movies to games, passing by comics, commercials,
+                muscicians and other popular icons. They can also be based on nostalgic toys.
+            </p>
+        </section>
+
+        <section class="content2">
+            <a class="history-link" href="history.html">
+                <h2>A bit of history</h2>
+                <p>Back in 1998, when Funko was founded by Mike and Claudia Becker, they started making bobblehead
+                    figures.
+                    It's only in 2010, after Brian Mariotti who took over...
+                </p>
+            </a>
+        </section>
+    </div>
+    <hr>
+
+    <section class="pics-vids">
+        <h2>Pictures &amp; Videos</h2>
+        <img class="item1" src="images/jedi.jpeg" alt="Funko Pops from the Star Wars franchise">
+        <img class="item2" src="images/gohan.jpeg" alt="Funko Pop from Dragon Ball Z">
+        <video class="item3" src="video/funko.MOV" controls preload="metadata" poster="images/pop-logo.png">
+        </video>
+        <iframe class="item4" src="https://www.youtube.com/embed/8f5UhAgrOe0" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img class="item5" src="images/collection.jpeg" alt="Funko Pop Collection">
+    </section>
+
+    <hr>
+
+    <section class="cards">
+        <div class="card card1">
+            <a href="starwarspops.html"><img src="images/jawa.png" alt="Pop from the Star Wars franchise"></a>
+            <div class="text">
+                <h3>Star Wars Pops</h3>
+                <hr>
+                <p>Funko has a great range of Star Wars figures, including all the movies and (animation) series.</p>
+            </div>
+        </div>
+        <div class="card card2">
+            <a href="otherpops.html"><img src="images/dementor.jpeg" alt="Pop from the Harry Potter franchise"></a>
+            <div class="text">
+                <h3>Other Pops</h3>
+                <hr>
+                <p>There are also many other franchises. Think about Harry Potter, Marvel, Lord of the rings and all
+                    kinds of movies, games and sports.</p>
+            </div>
+        </div>
+        <div class="card card3">
+            <a href="other-collections.html"><img src="images/soda-luke.jpeg" alt="Funko Soda"></a>
+            <div class="text">
+                <h3>Other Collections</h3>
+                <hr>
+                <p>Funko does not only produces Pop! They have many different lines, including Sodas, Dorbs, Mystery
+                    Minis and Games. </p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <table>
+            <caption>Find us online</caption>
+
+            <tr>
+                <td>Instagram</td>
+                <td>Twitter</td>
+                <td>LinkedIn</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.instagram.com/originalfunko/?hl=en" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a></td>
+                <td><a href="https://twitter.com/OriginalFunko?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank"><i class="fa-brands fa-twitter"></i></a></td>
+                <td><a href="https://nl.linkedin.com/company/funko?original_referer=https%3A%2F%2Fwww.google.com%2F"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a></td>
+            </tr>
+
+        </table>
+
+        <p>&#169;Alexandre Beauchard</p>
+    </footer>
+</body>
+
+</html>
